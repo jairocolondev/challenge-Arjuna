@@ -44,12 +44,13 @@ Programa una función que cuente el número de caracteres de una cadena de texto
 /* EJERCICIO #4 --
 Tienes un Array de animales, debes agregar un elemento 'TIBURON' al final del Array, un elemento 'MARIPOSA' al inicio del Array, elimina el último elemento, elimina el primer elemento. Ir mostrando el resultado a medida que ejecutas una acción. */
 
-const animales = ['GATO', 'GALLINA', 'PERRO', 'ELEFANTE', 'CONEJO']
+// const animales = ['GATO', 'GALLINA', 'PERRO', 'ELEFANTE', 'CONEJO']
 
-let agregarElemento = animales.shift()​;
-
-console.log(animales);
-
+// let agregarFinal = animales.push("TIBURON");
+// let agregarInicio = animales.unshift("MARIPOSA");
+// let eliminarFinal = animales.pop();
+// let eliminarInicio = animales.shift();
+// console.log(animales);
 
 
 
@@ -59,9 +60,10 @@ En este desafío recibirás dos arrays de números como parámetros de entrada y
 Pista: en este ejercicio puedes Googlear, que te puede servir para tener dos Arrays en uno */
 
 // function solucion(arrayA, arrayB) {
-//   // Tu código aquí 👈 
+//  let fusinarArrays = arrayA.concat(arrayB);
+//  console.log(fusinarArrays)
 // }; 
-
+// solucion([1,50,40,50],[49,70,98,40]);
 
 
 
@@ -72,3 +74,21 @@ Crea un objeto Persona, y agrégale las siguientes propiedades: (nombre --> Giov
 mostrar una por una de las propiedades en una lista */
 
 // Tu código aquí 👇​
+
+let persona = {
+    nombre: "Giovani",
+    apellido: "Bautista",
+    edad: 40,
+    ubicacion: "funza",
+    hobbies: ["manejar moto", "cocinar", "bailar"],
+    amigos: {
+        amigo1: "Arjuna",
+        amigo2: "Jairo",
+        amigo3: "Sebastian"
+    },
+   
+    console.log(persona.nombre),
+    console.log()
+
+}
+    
