@@ -1,17 +1,17 @@
 /* EJERCICIO #1 -- 
-Programa una función que realice la suma de 3 parámetros, los valores serán pasados por argumentos. */
+Programa una función que realice la suma de 3 parámetros, los valores serán pasados por argumentos.  ***BUENA*** */
 
 // function sumar(num1, num2, num3) {
 //   let  resultado = num1 + num2 + num3;
 //       console.log(resultado)
 // }
-// sumar(20,50,100);
+// sumar(20, 50, 100);
 
 
 
 
 /* EJERCICIO #2 -- 
-Pide al usuario la edad y si es mayor de 18 años indica que ya puede entrar a la discoteca, si tiene menos de 18, entonces es menor de edad y no puede ingresar */
+Pide al usuario la edad y si es mayor de 18 años indica que ya puede entrar a la discoteca, si tiene menos de 18, entonces es menor de edad y no puede ingresar ***MALA*** */
 
 // Tu código aquí 👇​ 
 
@@ -30,7 +30,7 @@ Pide al usuario la edad y si es mayor de 18 años indica que ya puede entrar a l
 
 /* EJERCICIO #3 -- 
 Programa una función que cuente el número de caracteres de una cadena de texto que envías por parámetro, sino no envías nada debe salir un mensaje de error (Debes ingresar una palabra o frase)
- Ejemplo: si miFunción("Hola Mundo"), entonces devolverá 10 caracteres */
+ Ejemplo: si miFunción("Hola Mundo"), entonces devolverá 10 caracteres  ***MALA***  */
 
 // function contarCaracteres(miFunción) {
 //    console.log(miFunción.length)
